@@ -281,7 +281,7 @@ header .fa-chevron-down {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: -0.38px;
-  margin-bottom: 20px;
+  padding: 5px 0 10px 0;
 }
 
 .offer span {
@@ -292,7 +292,8 @@ header .fa-chevron-down {
 
 .offer p {
   font-size: 16px;
-  margin: 20px 0 40px 0;
+  letter-spacing: 0.36px;
+  margin: 10px 0 50px 0;
 }
 
 .offer .circle {
@@ -317,11 +318,6 @@ header .fa-chevron-down {
 .offer .offer-card-title {
   font-weight: bold;
   margin: 20px 0 10px 0;
-}
-
-.offer .offer-hover {
-  -webkit-transition: color 0.3s;
-  transition: color 0.3s;
 }
 
 .offer .offer-hover:hover {
@@ -361,15 +357,6 @@ header .fa-chevron-down {
   margin-top: 5px;
 }
 
-@media (min-width: 375px) {
-  header h1 {
-    font-size: 36px;
-  }
-  header p {
-    font-size: 16px;
-  }
-}
-
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   width: 100%;
@@ -406,6 +393,32 @@ input[type=submit]:hover {
 }
 
 /* Add a background color and some padding around the form */
+.contact h2 {
+  font-weight: 800;
+  margin: 30px 0 20px 0;
+  letter-spacing: -0.38px;
+}
+
+.achievements h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.achievements span {
+  margin-left: 5px;
+  color: #5DBEBA;
+}
+
+@media (min-width: 375px) {
+  header h1 {
+    font-size: 36px;
+  }
+  header p {
+    font-size: 16px;
+  }
+}
+
 @media (min-width: 768px) {
   header h1 {
     font-size: 42px;
